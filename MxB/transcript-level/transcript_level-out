@@ -1,0 +1,40 @@
+Sender: LSF System <phpcadmin@cn112>
+Subject: Job 937610: <featureCounts -T 4 -O -t exon -g transcript_id -a /gpfs/scratch/cb/applbio_2019/groups/test/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2019/groups/test/MxB/transcript-level/total_file.count MxB_con_1_trimmed_sorted.bam MxB_con_2_trimmed_sorted.bam MxB_con_3_trimmed_sorted.bam MxB_con_4_trimmed_sorted.bam MxB_drought_1_trimmed_sorted.bam MxB_drought_2_trimmed_sorted.bam MxB_drought_3_trimmed_sorted.bam MxB_drought_4_trimmed_sorted.bam> in cluster <phpc_cluster> Done
+
+Job <featureCounts -T 4 -O -t exon -g transcript_id -a /gpfs/scratch/cb/applbio_2019/groups/test/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2019/groups/test/MxB/transcript-level/total_file.count MxB_con_1_trimmed_sorted.bam MxB_con_2_trimmed_sorted.bam MxB_con_3_trimmed_sorted.bam MxB_con_4_trimmed_sorted.bam MxB_drought_1_trimmed_sorted.bam MxB_drought_2_trimmed_sorted.bam MxB_drought_3_trimmed_sorted.bam MxB_drought_4_trimmed_sorted.bam> was submitted from host <cn112> by user <alhlwany> in cluster <phpc_cluster>.
+Job was executed on host(s) <2*cn112>, in queue <cb-applbio-ioheavy>, as user <alhlwany> in cluster <phpc_cluster>.
+</gpfs/scratch/cb/applbio_2019/home/alhlwany> was used as the home directory.
+</gpfs/scratch/cb/applbio_2019/groups/test> was used as the working directory.
+Started at Mon May 27 11:26:04 2019
+Results reported at Mon May 27 11:27:45 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+featureCounts -T 4 -O -t exon -g transcript_id -a /gpfs/scratch/cb/applbio_2019/groups/test/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2019/groups/test/MxB/transcript-level/total_file.count MxB_con_1_trimmed_sorted.bam MxB_con_2_trimmed_sorted.bam MxB_con_3_trimmed_sorted.bam MxB_con_4_trimmed_sorted.bam MxB_drought_1_trimmed_sorted.bam MxB_drought_2_trimmed_sorted.bam MxB_drought_3_trimmed_sorted.bam MxB_drought_4_trimmed_sorted.bam
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               377.43 sec.
+    Max Memory :             152 MB
+    Average Memory :         134.67 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               643 MB
+
+    Max Processes :          3
+    Max Threads :            8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </gpfs/scratch/cb/applbio_2019/groups/test/MxB/transcript-level/transcript_level-err> for stderr output of this job.
+

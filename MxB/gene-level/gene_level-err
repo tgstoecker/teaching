@@ -1,0 +1,104 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.4
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                           S MxB_con_1_trimmed_sorted.bam                   ||
+||                           S MxB_con_2_trimmed_sorted.bam                   ||
+||                           S MxB_con_3_trimmed_sorted.bam                   ||
+||                           S MxB_con_4_trimmed_sorted.bam                   ||
+||                           S MxB_drought_1_trimmed_sorted.bam               ||
+||                           S MxB_drought_2_trimmed_sorted.bam               ||
+||                           S MxB_drought_3_trimmed_sorted.bam               ||
+||                           S MxB_drought_4_trimmed_sorted.bam               ||
+||                                                                            ||
+||             Output file : total_file.count                                 ||
+||                 Summary : total_file.count.summary                         ||
+||              Annotation : zea_mays.protein_coding.gtf (GTF)                ||
+||      Dir for temp files : /gpfs/scratch/cb/applbio_2019/groups/test/Mx ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file zea_mays.protein_coding.gtf ...                       ||
+||    Features : 330269                                                       ||
+||    Meta-features : 39475                                                   ||
+||    Chromosomes/contigs : 132                                               ||
+||                                                                            ||
+|| Process BAM file MxB_con_1_trimmed_sorted.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 22624319                                             ||
+||    Successfully assigned alignments : 16805843 (74.3%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_con_2_trimmed_sorted.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 21355203                                             ||
+||    Successfully assigned alignments : 15529045 (72.7%)                     ||
+||    Running time : 0.20 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_con_3_trimmed_sorted.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 34245502                                             ||
+||    Successfully assigned alignments : 25418202 (74.2%)                     ||
+||    Running time : 0.31 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_con_4_trimmed_sorted.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 15336301                                             ||
+||    Successfully assigned alignments : 11388726 (74.3%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_drought_1_trimmed_sorted.bam...                       ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 18052652                                             ||
+||    Successfully assigned alignments : 13454668 (74.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_drought_2_trimmed_sorted.bam...                       ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 22644385                                             ||
+||    Successfully assigned alignments : 16668758 (73.6%)                     ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_drought_3_trimmed_sorted.bam...                       ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 9520391                                              ||
+||    Successfully assigned alignments : 7204185 (75.7%)                      ||
+||    Running time : 0.09 minutes                                             ||
+||                                                                            ||
+|| Process BAM file MxB_drought_4_trimmed_sorted.bam...                       ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 26226141                                             ||
+||    Successfully assigned alignments : 19099184 (72.8%)                     ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/gpfs/scratch/cb/applbi  ||
+|| o_2019/groups/test/MxB/gene-level/total_file.count.summary"                ||
+||                                                                            ||
+\\============================================================================//
+
