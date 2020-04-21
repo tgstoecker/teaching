@@ -1,0 +1,13 @@
+Status	BxM_con_1_trimmed_sorted.bam	BxM_con_2_trimmed_sorted.bam	BxM_con_3_trimmed_sorted.bam	BxM_con_4_trimmed_sorted.bam	BxM_drought_1_trimmed_sorted.bam	BxM_drought_2_trimmed_sorted.bam	BxM_drought_3_trimmed_sorted.bam	BxM_drought_4_trimmed_sorted.bam
+Assigned	13696583	26345570	25473039	19658830	20736991	13685179	10588121	22259921
+Unassigned_Unmapped	1182772	2075291	2019581	1673805	1747848	1121666	854965	2369586
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	2500551	4600821	4591603	3723000	3825183	2514221	1941979	3975210
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	1106704	1836245	1740569	1512175	1765513	1212415	846906	1836606
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	0	0	0	0	0	0	0	0
