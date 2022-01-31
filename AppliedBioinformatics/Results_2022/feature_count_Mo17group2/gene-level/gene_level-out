@@ -1,0 +1,40 @@
+Sender: LSF System <phpcadmin@cn112>
+Subject: Job 560519: <featureCounts -T 4 -O -t exon -g gene_id -a /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/feature_count/gene-level/total_file.count Mo17_con_1_sorted.bam Mo17_con_2_sorted.bam Mo17_con_3_sorted.bam Mo17_con_4_sorted.bam Mo17_drought_1_sorted.bam Mo17_drought_2_sorted.bam Mo17_drought_3_sorted.bam Mo17_drought_4_sorted.bam> in cluster <phpc_cluster> Done
+
+Job <featureCounts -T 4 -O -t exon -g gene_id -a /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/feature_count/gene-level/total_file.count Mo17_con_1_sorted.bam Mo17_con_2_sorted.bam Mo17_con_3_sorted.bam Mo17_con_4_sorted.bam Mo17_drought_1_sorted.bam Mo17_drought_2_sorted.bam Mo17_drought_3_sorted.bam Mo17_drought_4_sorted.bam> was submitted from host <cn112> by user <applbio22_user_19> in cluster <phpc_cluster>.
+Job was executed on host(s) <2*cn112>, in queue <cb-applbio>, as user <applbio22_user_19> in cluster <phpc_cluster>.
+</gpfs/scratch/cb/applbio_2022/home/applbio22_user_19> was used as the home directory.
+</gpfs/scratch/cb/applbio_2022/groups/Mo17group2> was used as the working directory.
+Started at Mon Jan 31 10:56:37 2022
+Results reported at Mon Jan 31 10:58:28 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+featureCounts -T 4 -O -t exon -g gene_id -a /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/zea_mays.protein_coding.gtf -o /gpfs/scratch/cb/applbio_2022/groups/Mo17group2/feature_count/gene-level/total_file.count Mo17_con_1_sorted.bam Mo17_con_2_sorted.bam Mo17_con_3_sorted.bam Mo17_con_4_sorted.bam Mo17_drought_1_sorted.bam Mo17_drought_2_sorted.bam Mo17_drought_3_sorted.bam Mo17_drought_4_sorted.bam
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               429.44 sec.
+    Max Memory :             142 MB
+    Average Memory :         123.53 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               640 MB
+
+    Max Processes :          3
+    Max Threads :            8
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </gpfs/scratch/cb/applbio_2022/groups/Mo17group2/feature_count/gene-level/gene_level-err> for stderr output of this job.
+

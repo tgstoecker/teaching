@@ -1,0 +1,13 @@
+Status	Mo17_con_1_sorted.bam	Mo17_con_2_sorted.bam	Mo17_con_3_sorted.bam	Mo17_con_4_sorted.bam	Mo17_drought_1_sorted.bam	Mo17_drought_2_sorted.bam	Mo17_drought_3_sorted.bam	Mo17_drought_4_sorted.bam
+Assigned	17434340	32348049	15175315	11158345	18150415	14006238	10887618	20485938
+Unassigned_Unmapped	2154671	3829821	1986489	1282762	2228569	1670062	1285042	2550342
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	4067875	7188208	3322870	2534998	4272761	3087913	2486829	4646794
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	1421216	2480416	1052008	786970	1499350	1032493	795962	1585948
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	0	0	0	0	0	0	0	0
