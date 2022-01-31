@@ -1,0 +1,13 @@
+Status	B73_con_1_sorted.bam	B73_con_2_sorted.bam	B73_con_3_sorted.bam	B73_con_4_sorted.bam	B73_drought_1_sorted.bam	B73_drought_2_sorted.bam	B73_drought_3_sorted.bam	B73_drought_4_sorted.bam
+Assigned	5907425	16955703	22507521	18543741	9213020	13942951	17566123	15008160
+Unassigned_Unmapped	262811	631749	789175	868013	566813	555168	609721	583399
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	1250209	3277724	4588900	3699081	1888478	2812167	3575245	3001845
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	410476	1013219	1404897	1233496	670397	1033704	1099634	1027210
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	0	0	0	0	0	0	0	0
